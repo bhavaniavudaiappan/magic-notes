@@ -6,7 +6,7 @@ import time
 import random
 import uuid  # For generating dynamic keys
 
-API_URL = "http://localhost:8000"
+API_URL = "https://magic-notes-backend.onrender.com"
 
 st.set_page_config(page_title="Magic Notes", layout="centered", page_icon="🪄")
 st.markdown("""
