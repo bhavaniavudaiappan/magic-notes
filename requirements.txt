@@ -1,0 +1,21 @@
+# === FRONTEND ===
+streamlit==1.45.1
+requests
+
+# === BACKEND ===
+fastapi
+uvicorn[standard]
+
+# === DATABASE ===
+pymongo
+dnspython
+
+# === AUTH ===
+python-jose[cryptography]
+python-dotenv
+
+# === EMAIL ===
+smtplib  # comes built-in with Python (no need to install)
+
+# === OTHER UTILITIES ===
+email-validator
